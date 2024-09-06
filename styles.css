@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(75deg, #92f5c8f1, #171334d4);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search input {
+  border: 0;
+  outline: 0;
+  background: #ebfffcb9;
+  color: #282424ea;
+  padding: 10px 25px;
+  height: 55px;
+  border-radius: 30px;
+  flex: 1;
+  margin-right: 16px;
+  font-size: 18px;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.336),
+    0 6px 20px 0 rgba(254, 254, 254, 0.342);
+}
+.search button {
+  border: 0;
+  outline: 0;
+  background: #8c98963f;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+.search button img {
+  width: 50px;
+}
+.srch:hover {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.829),
+    0 6px 20px 0 rgba(254, 254, 254, 0.884);
+  transition-delay: 0.2s;
+  transform: translate(0, -1px);
+}
+.information:hover {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.829),
+    0 6px 20px 0 rgba(254, 254, 254, 0.884);
+  transition-delay: 0.2s;
+  transform: translate(0, -1px);
+}
+.cart {
+  width: 68%;
+  max-width: 470px;
+  background: linear-gradient(135deg, #054829db, #2b2462bc);
+  color: #fff;
+  margin: 100px auto 0;
+  border-radius: 20px;
+  padding: 40px 35px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(45, 59, 62, 0.672),
+    0 16px 20px 0 rgba(254, 254, 254, 0.979);
+}
+.cart:hover {
+  box-shadow: 0 4px 8px 0 rgba(199, 234, 243, 0.672),
+    0 16px 25px 0 rgba(254, 254, 254, 0.979);
+}
+.weather-icon {
+  width: 60%;
+  margin-top: 30px;
+}
+.weather h1 {
+  font-size: 90px;
+  font-weight: 590p;
+}
+
+.weather h2 {
+  font-size: 45px;
+  font-weight: 490p;
+  margin-top: -10px;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 50px;
+}
+.col {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.col img {
+  width: 40px;
+  margin-right: 10px;
+}
+.humdity {
+  font-size: 30px;
+  margin-top: -6px;
+}
+.wind {
+  font-size: 18px;
+  margin-top: -6px;
+}
+
+.information {
+  background: #cfd4d327;
+  border-radius: 50%;
+}
+
+.weather {
+  display: none;
+}
+.error {
+  text-align: left;
+  margin-left: 10px;
+  font-size: 16px;
+  margin-top: 15px;
+  color: rgba(240, 248, 255, 0.853);
+  display: none;
+}
